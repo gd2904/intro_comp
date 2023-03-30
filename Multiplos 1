@@ -1,0 +1,6 @@
+number1 = float(input("inserte el primer numero "))
+test = number1 % 7
+if test == 0:
+    print("en numero es multiplo de 7")
+else:
+    print("en numero no es multiplo de 7")
