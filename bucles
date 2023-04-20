@@ -1,0 +1,21 @@
+numero = 0
+valor1=0
+valor2=0
+while numero !=5:
+    valor1=int(input("digite su primer valor "))
+    valor2=int(input("digite su segundo valor "))
+    print("¿Que operación desea realizar? \n 1: Suma \n 2:Resta \n 3: Multiplicación \n 4. División \n 5. Salir")
+    numero=int(input("Digite su operación "))
+    if numero == 1:
+        res_suma=valor1 + valor2
+        print("el resultado de la suma es", res_suma )  
+    if numero == 2:
+        res_resta=valor1 - valor2
+        print("el resultado de la resta es", res_resta )
+    if numero == 3:
+        res_mult=valor1 * valor2
+        print("el resultado de la multiplicación es", res_mult )
+    if numero == 4:
+        res_divi=valor1 + valor2
+        print("el resultado de la división es", res_divi )
+print("programa finalizado")
